@@ -1,0 +1,36 @@
+h1 {
+    font-style:normal;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;            
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;            
+}
+input[type=submit]{
+    width: 100%;
+    height: 30px;
+    background-color: greenyellow;
+}
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: gold;
+}
+input[type=submit]:active {
+    background-color: green;
+}

@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/mystyle.css">
 </head>
 <body>
-    <div>
-        second try afterdark
+<div class="container">
+<h1>Registration form</h1>
+<form>
+    <div class="form-input">
+        <label for="name-input">Enter your account</label>
+        <input type="text" id="name-input" placeholder="Account"/>
     </div>
+    <div class="form-input">
+        <label for="password-input">Enter your password</label>
+        <input type="password" id="password-input" placeholder="Password"/>
+    </div>
+    <div class="form-input">
+        <label for="user-type-input">Select user type</label>
+        <select id="user-type-input">
+            <option value="Admin">Admin</option>
+            <option value="Moderator">Moderator</option>
+            <option value="User">User</option>
+        </select>
+    </div>
+    <input type="submit" value="Submit form"/>
+</form>
+</div>
+<script type="text/javascript">
+    const customValue = 10;
+    window.customValue = customValue;
+    console.log("Hello world!");
+</script>
 </body>
 </html>
