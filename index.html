@@ -10,18 +10,18 @@
 <div class="container">
 <h1>Registration form</h1>
 <form class="form-input" action="/reg-data" method="post">
-    <div id="login-input" class="input-div">
+    <div id="login-input-container" class="input-div">
         <label for="login-input">Enter your login</label>
         <input type="text" id="login-input" name="login" class="form-input-text" placeholder="Login" required/>
     </div>
-    <div id="password-input" class="input-div">
+    <div id="password-input-container" class="input-div">
         <label for="password-input">Enter your password</label>
-        <input type="password" id="password-input" name="password" class="form-input-text" placeholder="Password"/>
+        <input type="password" id="password-input" name="password" class="form-input-text" placeholder="Password" required/>
     </div>
     <div class="input-div">
         <label for="user-type-input">Select your user</label>
-        <select id="user-type-input" name="role" class="form-input-select">
-            <option value="0" disabled selected>Make your Choice</option>
+        <select id="user-type-input" name="role" class="form-input-select" required>
+            <option value="0" disabled>Make your Choice</option>
             <option value="1">Admin</option>
             <option value="2">Moderator</option>
             <option value="3">User</option>
