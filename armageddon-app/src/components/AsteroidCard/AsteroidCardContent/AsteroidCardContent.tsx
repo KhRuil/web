@@ -1,6 +1,5 @@
-
 import { useContext } from "react";
-import {AsteroidContext} from "../../asteroids-context/Asteroids-Context";
+import {AsteroidContext} from "../AsteroidCardContent/AsteroidCardContentContainer";
 
 type AsteroidCardContentProps = {
     name: string;

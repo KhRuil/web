@@ -9,6 +9,7 @@ import { Destroyment } from './pages/Destroyment';
 import {AsteroidsContextProvider} from "./components/asteroids-context/Asteroids-Context";
 
 
+//для router желательно выексти в отделный файл
 const router = createHashRouter([
   {
     path: "/test",

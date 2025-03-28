@@ -1,3 +1,5 @@
+import styles from "./AsteroidCardAction.module.css"
+
 export const AsteroidCardAction = (props: {isDangerous: boolean, onClick: (asteroid: any)=>void}) => {
 
     const {isDangerous, onClick} = props;

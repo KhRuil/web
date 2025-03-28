@@ -68,8 +68,8 @@ export const Asteroids =()=>{
         <div onClick={() =>  setOnlyDangerous(!onlyDangerous)}>
             <input type="checkbox" value={onlyDangerous as unknown as string} onChange={()=>setOnlyDangerous(!onlyDangerous)}></input> Показать только опасные
         </div>
-        <div>Расстояние <button onClick={()=>setDistanseMode(true)}>в километрах</button>,
-         <button onClick={()=>setDistanseMode(false)}>в дистанциях до луны</button></div>
+        <div>Растояние <button onClick={()=>setDistanseMode(true)}>в километрах</button>,
+         <button onClick={()=>setDistanseMode(false)}>в дистанциях от луны</button></div>
          </div>
       
 
@@ -95,7 +95,7 @@ const generateAsteroids =()=>{
         'ноябрь',
         'декабрь',
     ];
-    const characters  = "qwertyuiopgbxcvzxvzx";
+    const characters  = "qwerasdfzxcvtyuighjkbnmopl";
     const result = [];
     
     for (let i=0; i < 10; i++ ){
