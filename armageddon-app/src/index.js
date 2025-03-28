@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Asteroids } from './pages/Asteroids';
 import { Asteroid } from './pages/Asteroid';
 import { Desroyment } from './pages/Desroyment';
-import {AsteroidsContextProvider} from "./components/asteroids-context/AsteroidsContext";
+import {AsteroidsContextProvider} from "./components/asteroids-context/Asteroids-Context";
 
 
 const router = createHashRouter([
@@ -29,7 +29,7 @@ const router = createHashRouter([
     element: <Asteroid />,
   },
   {
-    path: "/desroyment",
+    path: "/destoyment",
     element: <Desroyment />,
   },
 

@@ -1,7 +1,7 @@
 import { Header } from "../components/header/Header"
 import styles from "../static/css/style.css"
 import {useContext} from "react";
-import {AsteroidContext} from "../components/asteroids-context/AsteroidsContext";
+import {AsteroidContext} from "../components/asteroids-context/Asteroids-Context";
 import {AsteroidCard} from "../components/AsteroidCard/AsteroidCard";
 
 export const Desroyment =()=>{
