@@ -10,7 +10,7 @@ export const Header = memo(()=>{
     return ( <div className={styles.container}>
             <div >
                 <h1>ARMAGGEDON V</h1>
-                <div><p>Сервис мониторнинга и уничтожения астеройдов, опасно приближающихся к Земле.</p></div>
+                <div><p>Сервис мониторнинга и уничтожения астероидов, опасно приближающихся к Земле.</p></div>
             </div>
             <div className={styles.Link}>
                 <p>
