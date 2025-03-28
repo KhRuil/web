@@ -5,7 +5,7 @@ import {createHashRouter, RouterProvider} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import { Asteroids } from './pages/Asteroids';
 import { Asteroid } from './pages/Asteroid';
-import { Desroyment } from './pages/Desroyment';
+import { Destroyment } from './pages/Destroyment';
 import {AsteroidsContextProvider} from "./components/asteroids-context/Asteroids-Context";
 
 
@@ -29,8 +29,8 @@ const router = createHashRouter([
     element: <Asteroid />,
   },
   {
-    path: "/destoyment",
-    element: <Desroyment />,
+    path: "/destroyment",
+    element: <Destroyment />,
   },
 
 
