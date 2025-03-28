@@ -15,7 +15,7 @@ export const Header = memo(()=>{
             </div>
             <div className={styles.Link}>
                 <p>
-                <Link to={"/asteroids"}>Астероиды</Link> / <Link to={"/desroyment"}>Уничтожение</Link>
+                <Link to={"/asteroids"}>Астероиды</Link> / <Link to={"/destroyment"}>Уничтожение</Link>
                 </p>
             </div>
             <div>
