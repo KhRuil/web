@@ -4,7 +4,6 @@ import { Header } from "../components/header/Header"
 import { AsteroidCard } from "../components/AsteroidCard/AsteroidCard";
 import {AsteroidContext} from "../components/asteroids-context/Asteroids-Context";
 import { getUserKey } from '../utils/getUserKey';
-
 import styles from "./Asteroids.module.css"
 import {useContext, useEffect, useState} from "react";
 

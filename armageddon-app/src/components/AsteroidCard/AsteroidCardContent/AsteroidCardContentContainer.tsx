@@ -6,5 +6,3 @@ export const AsteroidCardContentContaier = (props)=>{
     const {DistanceLuna} = useContext(AsteroidContext);
     return <AsteroidCardContent {...props} DistanceLuna={DistanceLuna} />
 }
-
-export { AsteroidContext };

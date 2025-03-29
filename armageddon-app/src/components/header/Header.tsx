@@ -25,7 +25,7 @@ export const Header = memo(()=>{
         </div>
           {inputOpened ? <input onChange={(ev)=>{
             // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-            if (ev.target.value.length == 40) {
+            if (ev.target.value.length === 40) {
               localStorage.setItem("API_KEY", ev.target.value);
               setInputOpened(false)
             }
