@@ -8,7 +8,7 @@ type AsteroidCardContentProps = {
         lunar: number;
     },
     size: number,
-    distanceMode: boolean
+    distanceMode: boolean,
 }
 
 export const AsteroidCardContent = (props: AsteroidCardContentProps) =>{

@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Asteroids } from './pages/Asteroids';
 import { Asteroid } from './pages/Asteroid';
 import { Destroyment } from './pages/Destroyment';
-import {AsteroidsContextProvider} from "./components/asteroids-context/Asteroids-Context";
+import {AsteroidsContextProvider} from "./components/asteroids-context/AsteroidsContext";
 
 
 //для router желательно выексти в отделный файл

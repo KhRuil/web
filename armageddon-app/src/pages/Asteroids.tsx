@@ -2,7 +2,7 @@
 
 import { Header } from "../components/header/Header"
 import { AsteroidCard } from "../components/AsteroidCard/AsteroidCard";
-import {AsteroidContext} from "../components/asteroids-context/Asteroids-Context";
+import {AsteroidContext} from "../components/asteroids-context/AsteroidsContext";
 import { getUserKey } from '../utils/getUserKey';
 import styles from "./Asteroids.module.css"
 import {useContext, useEffect, useState} from "react";
@@ -59,7 +59,7 @@ export const Asteroids =()=>{
 
 
 
-    const {onlyDangerous, setOnlyDangerous, setDistanseMode} = useContext(AsteroidContext);
+    const {onlyDangerous, setOnlyDangerous, setDistanceMode} = useContext(AsteroidContext);
 
     return <div >
         <Header />
@@ -67,8 +67,8 @@ export const Asteroids =()=>{
         <div onClick={() =>  setOnlyDangerous(!onlyDangerous)}>
             <input type="checkbox" value={onlyDangerous as unknown as string} onChange={()=>setOnlyDangerous(!onlyDangerous)}></input> Показать только опасные
         </div>
-        <div>Растояние <button onClick={()=>setDistanseMode(true)}>в километрах</button>,
-         <button onClick={()=>setDistanseMode(false)}>в дистанциях от луны</button></div>
+        <div>Растояние <button onClick={()=>setDistanceMode(true)}>в километрах</button>,
+         <button onClick={()=>setDistanceMode(false)}>в дистанциях от луны</button></div>
          </div>
       
 
