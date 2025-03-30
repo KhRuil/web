@@ -1,0 +1,21 @@
+.container {
+    
+    
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #aaa;
+
+}
+a:link {
+    color: black;
+}
+
+
+.container a {
+   font-size: 12;
+
+}

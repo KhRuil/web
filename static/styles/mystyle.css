@@ -1,0 +1,73 @@
+h1 {
+    font-style:italic;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;            
+}
+.form-input{
+    border: 1px solid #968383;
+    border-radius: 15%;
+    padding: 24px;
+    font-size: 24px;
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;            
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-input-text{
+    border-radius: 50px;
+    padding: 5%;
+}
+.form-input-select{
+    border-radius: 50px;
+    padding: 5%;
+}
+.form-input-text-error{
+    border-radius: 50px;
+    padding: 15%;
+    border-color: red;
+}
+.form-error-message{
+    color: red;
+    font-size: 15px;
+}
+
+input[type=submit] {
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: rgb(211, 167, 167);
+    background-color: rgb(144, 238, 3);
+}
+input[type=submit]:focus {
+    box-shadow: 0 0 0 0.2rem rgba(1, 39, 78, 0.5);
+}
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: gold;
+}
+input[type=submit]:active {
+    background-color: green;
+}
+
+label {
+    margin: 20px;
+}
+#login-input, #user-type-input, #password-input{
+    width: 300px;
+    height: 30px;
+    padding: 21px;
+}
